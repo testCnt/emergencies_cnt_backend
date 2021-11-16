@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/feliperiano/Desktop/Felipe XD/CNT/emergencies_cnt_backend/General/emergenecies_cnt_backend.csproj": {}
+  },
+  "projects": {
+    "/Users/feliperiano/Desktop/Felipe XD/CNT/emergencies_cnt_backend/General/emergenecies_cnt_backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/feliperiano/Desktop/Felipe XD/CNT/emergencies_cnt_backend/General/emergenecies_cnt_backend.csproj",
+        "projectName": "emergenecies_cnt_backend",
+        "projectPath": "/Users/feliperiano/Desktop/Felipe XD/CNT/emergencies_cnt_backend/General/emergenecies_cnt_backend.csproj",
+        "packagesPath": "/Users/feliperiano/.nuget/packages/",
+        "outputPath": "/Users/feliperiano/Desktop/Felipe XD/CNT/emergencies_cnt_backend/General/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/feliperiano/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
+            "MySql.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

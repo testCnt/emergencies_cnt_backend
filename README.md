@@ -5,3 +5,5 @@
 ```docker build -t testcnt .```
 ## Run the image
 ```docker run -d -p 80:80 testcnt```
+## Note
+```Verify the credentials to access in the file emergencies_cnt_backend/General/Startup.cs ```

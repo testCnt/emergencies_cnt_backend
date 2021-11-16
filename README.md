@@ -1,9 +1,7 @@
-# General microservice
+# Backend Est CNT
 ## Enter the "General" directory to be able to build the image
 ```cd General```
 ## Build the image
-```docker build -t testCnt .```
-## Build the docker-compose
-```docker-compose build```
-## Recreate the container
-```docker-compose up```
+```docker build -t testcnt .```
+## Run the image
+```docker run -d -p 80:80 testcnt```

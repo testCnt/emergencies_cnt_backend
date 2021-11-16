@@ -22,7 +22,7 @@ namespace General
         public void ConfigureServices(IServiceCollection services)
         {
 
-            var connectionString = "server = localhost; database = emergencies_cnt_db; Uid = root; pwd =abcd1234;";
+            var connectionString = "server = host.docker.internal; database = emergencies_cnt_db; Uid = root; pwd =abcd1234;";
             services.AddDbContext<ApiDbContext>(
                 options => options.UseMySQL(
                 connectionString

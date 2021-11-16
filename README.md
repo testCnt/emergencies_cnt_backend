@@ -1,4 +1,4 @@
-# Backend Est CNT
+# Backend Test CNT
 ## Enter the "General" directory to be able to build the image
 ```cd General```
 ## Build the image
